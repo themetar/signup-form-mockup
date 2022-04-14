@@ -1,0 +1,39 @@
+/* Global styles */ 
+html { font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+a { color: inherit }
+/*  */
+
+/* Main header */
+.main-header {
+  color: white;
+  background: url("../images/bg-img-Halie-West.jpg") center/cover;
+  padding: 2rem 0;
+  position: relative;
+}
+
+.main-header h1 {
+  font-family: Norse;
+  font-size: 5rem;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, .4);
+  margin: 0;
+  padding-top: .25em;
+  padding-bottom: .25em;
+}
+
+.main-header img {
+  height: 1.3em;
+  vertical-align: middle;
+}
+
+.credits {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin: 2px 0;
+  text-align: center;
+  font-size: .75rem;
+}
+/*  */
