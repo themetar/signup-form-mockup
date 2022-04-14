@@ -1,7 +1,12 @@
 /* Global styles */ 
-html { font-family: Verdana, Geneva, Tahoma, sans-serif; }
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #f9fafb;
+}
 
 a { color: inherit }
+
+p { margin: 0 0 1em 0 }
 /*  */
 
 /* Main header */
@@ -35,5 +40,43 @@ a { color: inherit }
   margin: 2px 0;
   text-align: center;
   font-size: .75rem;
+}
+/*  */
+
+/* Content */
+/* Form */
+.content form {
+  padding: 1rem 3rem;
+  background-color: white;
+  box-shadow: 0 .5rem 1rem -.5rem gray;
+  margin-bottom: 1rem;
+}
+
+.form-fields {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem 6rem;
+  width: min(100%, 600px);
+}
+
+.form-fields label {
+  display: block;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-bottom: .2em;
+}
+
+.form-fields input {
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: .25em;
+  border: 1px solid #E5E7EB;
+  padding: .3em .6em;
+}
+
+.form-fields input:focus {
+  outline: none;
+  border-color: #274ed4;
+  box-shadow: .1em .1em .2em 0 lightgray;
 }
 /*  */
