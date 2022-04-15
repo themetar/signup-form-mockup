@@ -28,12 +28,12 @@ p { margin: 0 0 1em 0 }
   margin: 0;
   padding-top: .25em;
   padding-bottom: .25em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.main-header img {
-  height: 1.3em;
-  vertical-align: middle;
-}
+.main-header img { height: 1.4em; }
 
 .credits {
   position: absolute;
@@ -130,6 +130,11 @@ button + p a:hover { color: #627610; }
   body {
     display: grid;
     grid-template-columns: 1fr 2fr;
+  }
+
+  .main-header {
+    padding-top: calc((100vh - 8rem) * .27);
+    padding-bottom: 0;
   }
 
   .content {
