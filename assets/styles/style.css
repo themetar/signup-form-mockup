@@ -49,7 +49,7 @@ p { margin: 0 0 1em 0 }
   padding: 1rem 3rem;
   background-color: white;
   box-shadow: 0 .5rem 1rem -.5rem gray;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .form-fields {
@@ -79,4 +79,29 @@ p { margin: 0 0 1em 0 }
   border-color: #274ed4;
   box-shadow: .1em .1em .2em 0 lightgray;
 }
+
+button {
+  background-color: #596D48;
+  border: none;
+  border-radius: .25em;
+  color: white;
+  text-transform: capitalize;
+  font-weight: bold;
+  padding: 1em 3em;
+  margin-left: 3rem;
+  margin-bottom: 2em;
+  box-shadow: .3rem .3rem .3rem rgba(0,0,0,.2);
+}
+
+button:hover {
+  background-color: #627610;
+  box-shadow: .2rem .2rem .3rem rgba(0,0,0,.4);
+}
+
+button + p { margin-left: 3rem; }
+button + p a {
+  color: #596D48;
+  font-weight: bold;
+}
+button + p a:hover { color: #627610; }
 /*  */
