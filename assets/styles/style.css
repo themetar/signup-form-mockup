@@ -4,6 +4,8 @@ html {
   background-color: #f9fafb;
 }
 
+body { min-height: 100vh; }
+
 a { color: inherit }
 
 p { margin: 0 0 1em 0 }
@@ -123,3 +125,14 @@ button + p a {
 }
 button + p a:hover { color: #627610; }
 /*  */
+
+@media screen and (min-width: 800px) {
+  body {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .content {
+    align-self: center;
+  }
+}
