@@ -44,6 +44,24 @@ p { margin: 0 0 1em 0 }
 /*  */
 
 /* Content */
+.content {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.cta-text {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.content > .cta-text {
+  margin-left: 3rem;
+  margin-right: 3rem;
+  max-width: 750px;
+}
+
+.content > .cta-text:nth-child(2) { margin-bottom: clamp(1em, 10vh, 3em); }
+
 /* Form */
 .content form {
   padding: 1rem 3rem;
