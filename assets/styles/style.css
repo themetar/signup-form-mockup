@@ -100,6 +100,18 @@ p { margin: 0 0 1em 0 }
   box-shadow: .1em .1em .2em 0 lightgray;
 }
 
+.form-fields input.error { border-color: #b90000; }
+
+.form-fields input + div[data-for-input] {
+  visibility: hidden;
+  font-size: .7em;
+  color: #b90000;
+}
+
+.form-fields input + div[data-for-input]:before { content: "* "; }
+
+.form-fields input.error + div[data-for-input] { visibility: visible; }
+
 button {
   background-color: #596D48;
   border: none;
