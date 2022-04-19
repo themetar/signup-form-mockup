@@ -153,3 +153,9 @@ button + p a:hover { color: #627610; }
     align-self: center;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .form-fields {
+    grid-template-columns: 1fr;
+  }
+}
